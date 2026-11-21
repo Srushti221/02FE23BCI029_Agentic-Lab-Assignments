@@ -1,0 +1,4 @@
+Issue: I forgot my password and cannot log in
+Execution: {'graph': ['intake', 'triage_router', 'password_reset_guidance', 'response'], 'result': {'skill': 'password_reset_guidance', 'route': 'verified_reset_steps', 'steps': ['Open the official university password-reset page.', 'Complete the approved identity-verification process.', 'Choose a new, unique password.'], 'constraints': ['Do not share your current password.', 'Do not bypass identity verification.']}}
+Issue: How do I connect to campus wifi?
+Execution: {'graph': ['intake', 'triage_router', 'triage_skill', 'response'], 'result': {'skill': 'triage_skill', 'route': 'faq', 'response': 'Connect to Campus-Secure and sign in with your student ID.'}}

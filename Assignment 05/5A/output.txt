@@ -1,0 +1,8 @@
+=== Discovered capabilities ===
+read_file (resource)
+query_db (tool)
+call_api (tool)
+list_files (resource)
+
+=== Call newly discovered list_files resource ===
+{'files': ['/safe/README.md', '/safe/events.txt']}

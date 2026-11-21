@@ -1,0 +1,10 @@
+=== Allowed read ===
+{'content': 'Agentic AI lab notes.'}
+
+=== Adversarial: outside safe directory ===
+{'error': 'permission_denied', 'message': 'read_file is restricted to /safe/.'}
+Rejected: True
+
+=== Adversarial: path traversal ===
+{'error': 'permission_denied', 'message': 'read_file is restricted to /safe/.'}
+Traversal rejected: True

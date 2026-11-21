@@ -1,0 +1,12 @@
+
+Attempt 1:
+FAILED: No contact found for Unknown Person
+
+Attempt 2:
+FAILED: No contact found for Unknown Person
+
+Attempt 3:
+HUMAN ESCALATION: draft_email has failed twice for student_01; third execution was not attempted.
+
+Actual skill failures: 2
+Audit records: 3

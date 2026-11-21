@@ -1,0 +1,8 @@
+=== Coding agent output (deliberate defect present) ===
+[{'name': 'Ben', 'score': 85}]
+
+=== Independently generated test result ===
+Expected records: ['Ada', 'Ben']
+Actual records: ['Ben']
+FAIL: boundary case score=70 was excluded by the buggy filter.
+Regression detected: True

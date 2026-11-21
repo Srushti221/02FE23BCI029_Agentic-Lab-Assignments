@@ -1,0 +1,4 @@
+Busy days returned by schedule tool: ['Friday', 'Wednesday']
+Student unavailable days: ['Sunday']
+SCHEDULING CONFLICT DETECTED: Friday, Wednesday
+Plan was not finalized. Please choose different study days or update availability.

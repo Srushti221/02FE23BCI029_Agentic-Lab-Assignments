@@ -1,0 +1,5 @@
+Retrieval for database:
+ [database] We chose PostgreSQL.
+Retrieval for hosting:
+ [hosting] The application will use AWS.
+Isolation check: PASS - database and hosting records do not leak across topics.

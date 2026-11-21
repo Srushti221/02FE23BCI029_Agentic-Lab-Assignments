@@ -1,0 +1,7 @@
+Reading 1: vibration=48 -> NORMAL; consecutive warnings=0
+Reading 2: vibration=55 -> WARNING; consecutive warnings=1
+Reading 3: vibration=61 -> WARNING; consecutive warnings=2
+Reading 4: vibration=68 -> WARNING; consecutive warnings=3
+Reading 5: vibration=72 -> WARNING; consecutive warnings=4
+Final recommendation: schedule_inspection
+Any ALARM reading: False

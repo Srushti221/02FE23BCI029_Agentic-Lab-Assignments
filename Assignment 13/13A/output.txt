@@ -1,0 +1,4 @@
+10:00 | load=42 kW | voltage=230 V => {'level': 'NORMAL', 'recommendation': 'continue monitoring', 'requires_human_review': False}
+10:15 | load=58 kW | voltage=229 V => {'level': 'WARNING', 'recommendation': 'monitor load and notify operator', 'requires_human_review': False}
+10:30 | load=78 kW | voltage=228 V => {'level': 'ALARM', 'recommendation': 'inspect feeder and verify load source', 'requires_human_review': True}
+Safety gate: recommendation is pending human review; no automatic action taken.

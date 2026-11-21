@@ -1,0 +1,27 @@
+=== Security scan node contract ===
+input: built application
+output: security findings
+owner: security agent
+success_criteria: no high-severity findings
+failure_behavior: stop pipeline and request human review
+
+=== Success path ===
+Graph: planner -> builder -> security_scan -> tester -> reviewer
+Running node: planner
+Running node: builder
+Running node: security_scan
+Security scan input: built application
+Security scan output: no high-severity findings
+Running node: tester
+Running node: reviewer
+Pipeline status: SUCCESS
+
+=== Security scan failure path ===
+Graph: planner -> builder -> security_scan -> tester -> reviewer
+Running node: planner
+Running node: builder
+Running node: security_scan
+Security scan input: built application
+Security scan output: high-severity vulnerability
+Node failure: security_scan
+stop pipeline and request human review

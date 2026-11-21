@@ -1,0 +1,28 @@
+=== Revised study plan ===
+{
+  "Monday": {
+    "subject": "Data Structures",
+    "hours": 2
+  },
+  "Tuesday": {
+    "subject": "Operating Systems",
+    "hours": 2,
+    "time": "20:00-22:00"
+  },
+  "Wednesday": {
+    "subject": "AI Agents",
+    "hours": 2
+  },
+  "Thursday": {
+    "subject": "Data Structures",
+    "hours": 2
+  },
+  "Friday": {
+    "subject": "Operating Systems",
+    "hours": 1
+  }
+}
+=== Revision log ===
+{'revision': 1, 'feedback': "Move Tuesday's session to the evening.", 'plan_id': 139964357042176}
+{'revision': 2, 'feedback': "Also make Friday's session shorter, only one hour.", 'plan_id': 139964357042176}
+Same plan object used for both revisions: True

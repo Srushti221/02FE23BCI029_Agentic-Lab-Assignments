@@ -1,0 +1,10 @@
+Merged draft: {'venue': 'Grand Hall', 'venue_available': False, 'venue_cost': 45000, 'budget_cap': 30000, 'marketing_cost': 36000, 'date': 'Saturday', 'judging_criteria': ['innovation', 'technical depth']}
+
+Independent role critiques:
+{'role': 'logistics_agent', 'objection': 'Venue Grand Hall is not available.'}
+{'role': 'budget_agent', 'objection': 'Combined cost 81000 exceeds cap 30000.'}
+{'role': 'judging_agent', 'objection': "Judging criteria are missing: ['demo quality']."}
+{'role': 'marketing_agent', 'objection': 'Publicity proposal exceeds the available budget cap.'}
+
+Distinct roles raising objections: ['budget_agent', 'judging_agent', 'logistics_agent', 'marketing_agent']
+At least two independent roles raised objections: True

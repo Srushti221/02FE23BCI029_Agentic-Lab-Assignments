@@ -1,0 +1,6 @@
+Question: What's the average sign-up for technical events only?
+Tool 1 - read_csv: rows read = 5
+Tool 2 - filter category=technical: [('AI Club Talk', 12), ('Hackathon Kickoff', 9), ('Robotics Demo', 15)]
+Tool 3 - calculator input: [12, 9, 15]
+Average technical-event sign-ups: 12.00
+Trace validation: filtered subset is non-empty.

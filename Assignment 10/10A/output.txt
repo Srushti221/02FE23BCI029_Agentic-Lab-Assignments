@@ -1,0 +1,12 @@
+=== Incident: payments ===
+Logs: ['HTTP 500 rate increased', 'payment gateway timeout']
+Deploy history: ['payments-v2.4 deployed 10 minutes before alert']
+Metrics: {'error_rate_pct': 4.5, 'latency_ms': 1800}
+Severity: WARNING
+Diagnosis: Payment gateway timeouts began after payments-v2.4; investigate the recent deployment.
+=== Incident: database ===
+Logs: ['connection pool exhausted', 'requests waiting for connection']
+Deploy history: ['reporting-v1.8 deployed 8 minutes before alert']
+Metrics: {'pool_usage_pct': 100, 'waiting_connections': 42}
+Severity: ALARM
+Diagnosis: Database connection-pool exhaustion; correlate with the recent reporting job deployment.

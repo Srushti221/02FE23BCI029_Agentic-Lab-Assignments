@@ -1,0 +1,6 @@
+documentation update => {'approved': True, 'reason': 'within threshold or separately finance-approved'}
+large infrastructure change => {'approved': False, 'reason': 'cost exceeds threshold and finance approval is absent'}
+approved infrastructure change => {'approved': True, 'reason': 'within threshold or separately finance-approved'}
+adversarial missing-cost proposal => {'approved': False, 'reason': 'cost estimate is missing; proposal rejected'}
+
+Missing-cost adversarial case rejected: True

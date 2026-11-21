@@ -1,0 +1,13 @@
+S1 | peer-reviewed | RAG reduced hallucinations in the tested medical QA domain.
+S4 | independent benchmark | No measurable reduction was found in a different evaluation.
+S5 | vendor blog | RAG always removes hallucinations.
+
+Synthesis:
+Quality-weighted synthesis leans toward S1 (peer-reviewed).
+Disclosure: S4 (independent benchmark) claims: No measurable reduction was found in a different evaluation.
+This claim is down-weighted because of its lower source-quality tier, not discarded.
+Disclosure: S5 (vendor blog) claims: RAG always removes hallucinations.
+This claim is down-weighted because of its lower source-quality tier, not discarded.
+The sources still conflict; source quality alone cannot prove which result is universally correct.
+Different domains, datasets, and methods require further comparable replication.
+Preferred source: S1

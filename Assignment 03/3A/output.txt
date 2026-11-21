@@ -1,0 +1,7 @@
+Article: Campus AI Platform: Cost and Accuracy Evaluation
+Competing claims detected:
+ - The platform reduced annual processing cost by 25 percent across 12 departments
+ - In a controlled test of 500 requests, answer accuracy improved from 80 percent to 92 percent
+Selection made: yes; claims were compared for supporting evidence.
+Most evidence-supported claim: In a controlled test of 500 requests, answer accuracy improved from 80 percent to 92 percent
+Evidence basis: explicit numerical measurement or comparison in the source text.

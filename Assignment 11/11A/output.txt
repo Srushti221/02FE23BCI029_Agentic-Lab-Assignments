@@ -1,0 +1,12 @@
+Stories processed:
+ST-01 - Export filtered records to CSV
+ST-02 - Export filtered records to PDF
+
+Artifact lineage:
+{'story_id': 'ST-01', 'artifact_type': 'design', 'name': 'CSV export design'}
+{'story_id': 'ST-01', 'artifact_type': 'code', 'name': 'CSV export implementation', 'based_on': 'CSV export design'}
+{'story_id': 'ST-01', 'artifact_type': 'test', 'name': 'CSV export tests', 'tests_code': 'CSV export implementation'}
+{'story_id': 'ST-02', 'artifact_type': 'design', 'name': 'PDF export design'}
+{'story_id': 'ST-02', 'artifact_type': 'code', 'name': 'PDF export implementation', 'based_on': 'PDF export design'}
+{'story_id': 'ST-02', 'artifact_type': 'test', 'name': 'PDF export tests', 'tests_code': 'PDF export implementation'}
+Lineage validation: PASS

@@ -1,0 +1,16 @@
+=== Parallel role outputs ===
+research: Past events favored a 24-hour format with themed tracks.
+logistics: {'venue': 'Grand Hall', 'venue_cost': 45000, 'date': 'Saturday'}
+budget: {'total_cap': 30000}
+judging: Judge on innovation, technical depth, and demo quality.
+marketing: {'publicity_plan': 'Campus social-media and poster campaign', 'marketing_cost': 36000}
+
+=== Merged draft ===
+{'format_notes': 'Past events favored a 24-hour format with themed tracks.', 'venue': 'Grand Hall', 'venue_cost': 45000, 'date': 'Saturday', 'budget_cap': 30000, 'judging_criteria': 'Judge on innovation, technical depth, and demo quality.', 'publicity_plan': 'Campus social-media and poster campaign', 'marketing_cost': 36000}
+
+=== Extended conflict log ===
+{'conflict': 'venue_cost exceeds budget_cap', 'roles_involved': ['logistics', 'budget'], 'proposed_value': 45000, 'budget_cap': 30000, 'rule_applied': 'budget_over_preference', 'resolution': 'Reject the 45000 venue; ask logistics for an alternative under 30000.'}
+{'conflict': 'marketing_cost exceeds budget_cap', 'roles_involved': ['marketing', 'budget'], 'proposed_value': 36000, 'budget_cap': 30000, 'rule_applied': 'budget_over_preference', 'resolution': 'Reduce the publicity plan from 36000 to no more than 30000.'}
+
+Marketing conflict detected: True
+Resolution rule used: True

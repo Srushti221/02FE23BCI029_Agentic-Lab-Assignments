@@ -1,0 +1,4 @@
+Topic: fresh decision | Fact: Use SQLite. | Stored: 2026-11-10 | Age: 10 days
+Fresh record: safe to use within retention period.
+Topic: old decision | Fact: Use PostgreSQL. | Stored: 2026-09-01 | Age: 80 days
+WARNING: this decision is from 80 days ago and may be out of date.

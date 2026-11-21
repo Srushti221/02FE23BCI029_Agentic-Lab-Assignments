@@ -1,0 +1,11 @@
+Proposal 1 accepted: change-1
+Proposal 2 accepted: change-2
+Proposal 3 accepted: change-3
+Proposal 4 accepted: change-4
+Proposal 5 accepted: change-5
+Five proposals reached. Mandatory re-evaluation is now required.
+BLOCKED: change-6 cannot be submitted until evaluate() is called.
+
+Calling evaluate():
+Evaluation completed. Proposal counter reset to 0.
+Proposal 1 accepted: change-6-after-evaluation

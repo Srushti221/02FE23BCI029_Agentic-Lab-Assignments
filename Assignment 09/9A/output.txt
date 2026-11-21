@@ -1,0 +1,8 @@
+S1: RAG reduced hallucinations by 41% in a medical QA benchmark. | Method: 200 held-out medical questions
+S2: RAG improved grounding in a domain QA evaluation. | Method: retrieval evaluation
+S3: RAG performance depends on retrieval quality. | Method: error analysis
+S4: A separate evaluation found no measurable hallucination reduction. | Method: different domain and larger test set
+
+Comparison: {'conflict': True, 'source_a': 'S1', 'source_b': 'S4', 'kind': 'direct contradiction', 'claims': ['RAG reduced hallucinations by 41% in a medical QA benchmark.', 'A separate evaluation found no measurable hallucination reduction.']}
+
+Synthesis: The evidence is conflicting: S1 reports a 41% reduction, while S4 reports no measurable improvement. This is a genuine contradiction, not missing information. A plausible explanation is that the studies used different evaluation methodologies, domains, and dataset sizes. The 41% figure should not be generalized beyond the conditions in which it was measured.

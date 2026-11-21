@@ -1,0 +1,6 @@
+Average sign-ups: 8.25
+Notification draft: Low turnout notice: average sign-ups are 8.25, below the threshold of 10. Please promote upcoming events.
+Notification sent: No (draft only)
+=== Tool trace ===
+{'tool': 'calculator', 'reason': 'calculate average event sign-ups', 'input': [12, 9, 7, 5], 'output': 8.25}
+{'tool': 'send_notification', 'reason': 'average is below the low-turnout threshold', 'input': 'Low turnout notice: average sign-ups are 8.25, below the threshold of 10. Please promote upcoming events.', 'output': {'status': 'drafted', 'message': 'Low turnout notice: average sign-ups are 8.25, below the threshold of 10. Please promote upcoming events.'}}

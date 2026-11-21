@@ -1,0 +1,6 @@
+Article: A Claim About a New Study Tool
+Claim: A new study tool is the best solution for every student
+Evidence: not stated in source
+Limitation: not stated in source
+Takeaway: The source makes a claim but provides no evidence to verify it.
+Fabrication check: PASS - no supporting evidence or limitation was invented.

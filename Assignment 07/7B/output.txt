@@ -1,0 +1,16 @@
+=== Scenario A: first attempt fails, retry succeeds ===
+Builder attempt 1
+Builder result: FAILED
+Retrying once (one retry is permitted).
+Builder attempt 2
+Builder result: SUCCESS
+Final status: success
+
+=== Scenario B: both allowed attempts fail ===
+Builder attempt 1
+Builder result: FAILED
+Retrying once (one retry is permitted).
+Builder attempt 2
+Builder result: FAILED
+Retry limit reached. Escalating to human; no third attempt.
+Final status: escalated

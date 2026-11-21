@@ -1,0 +1,15 @@
+
+Task 1:
+Summary prepared for 5 words.
+
+Task 2:
+[Translated to Kannada] Hello team
+
+Task 3:
+Summary prepared for 5 words.
+
+Task 4:
+Rejected: student_01 has reached the maximum of 3 tasks in this session.
+
+Accepted task count: 3
+Successful task audit entries: 3

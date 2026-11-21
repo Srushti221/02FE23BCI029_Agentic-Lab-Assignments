@@ -1,0 +1,4 @@
+WARNING | restart_single_pod | risk=low => {'status': 'auto_executed', 'action': 'restart_single_pod', 'reason': 'WARNING-level incident and explicitly low-risk single-pod restart.'}
+WARNING | rollback_deployment | risk=low => {'status': 'approval_required', 'action': 'rollback_deployment', 'reason': 'Rollback-class actions always require human approval.'}
+ALARM | restart_single_pod | risk=low => {'status': 'approval_required', 'action': 'restart_single_pod', 'reason': 'Action is not eligible for automatic execution.'}
+WARNING | rollback_deployment | risk=high => {'status': 'approval_required', 'action': 'rollback_deployment', 'reason': 'Rollback-class actions always require human approval.'}
